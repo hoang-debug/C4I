@@ -20,5 +20,5 @@ function translatePigLatin(str) {
       : str.concat("way");
   }
   
-  translatePigLatin("california");
+  console.log(translatePigLatin("california"));
 //Bai 2
