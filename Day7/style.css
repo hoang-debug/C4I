@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+    font-family:"open sans",sans-serif;
+    background-color: rgb(255, 204, 102);
+}
+
+.container{
+    width: 100%;
+    padding: 40px 0 40px 0;
+}
+
+.wallet {
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 8px 20px 6px rgba(255, 178, 22);
+    -moz-box-shadow: 0px 8px 20px 6px rgba(255, 178, 22);
+    -webkit-box-shadow: 0px 8px 20px 6px rgba(255, 178, 22);
+    height:600px;
+    max-width: 900px;
+    min-width: 800px;
+    display: flex;
+}
+
+.left-wallet{
+    background-color: #f2f2f2;
+    width: 300px;
+    height: inherit;
+    padding: 40px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.right-trans{
+    background-color: #fff;
+    width: 600px;
+    height: inherit;
+    padding: 40px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+h1{
+    color: #7d818e;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+h4{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.wallet-head, .trans-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#balance{
+    line-height: 34px;
+}
+
+.modal-open{
+    padding: 0;
+    font-size: 42px;
+    line-height: 36px;
+    color: #b7b7b7;
+    cursor: pointer;
+}
+
+.modal-open:hover{
+    color: #868686;
+}
+
+.trans-list{
+    border-top: 1px solid #f2f2f2;
+    margin-top: 40px;
+    overflow-y: scroll;
+    max-height: 550px;
+
+}
+
+.cc-select {
+    margin-top: 34px;
+    overflow-y: scroll;
+    max-height: 540px;
+    padding: 5px;
+}
+
+.cc{
+    cursor: pointer;
+    background-color: #fff;
+}
